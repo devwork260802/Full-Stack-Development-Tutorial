@@ -1,0 +1,105 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1 CSS */
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 24px;
+    padding: 22px 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+/* Question 2 CSS */
+
+li {
+    list-style: none;
+    margin: 0 24px;
+    padding: 22px 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+.div1 {
+    background-color: green;
+    height: 40vh;
+    width: 40vw;
+}
+
+.div2 {
+    background-color: yellow;
+    height: 40vh;
+    width: 40vw;
+}
+
+.background-image {
+    height: 220px;
+    width: 1552px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navimage {
+    padding: 7px;
+    height: 50px;
+    width: 50px;
+}
+
+.content {
+    background-color: aquamarine;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+/* Question 3 CSS */
+
+.container3 {
+    background-color: green;
+}
+
+@media screen and (max-width: 800px) {
+    .container3 {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container3 {
+        background-color: yellow;
+    }
+}

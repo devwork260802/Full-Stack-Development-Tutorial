@@ -1,0 +1,35 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Color CSS */
+
+.red {
+    background-color: red;
+    height: 344px;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: aqua;
+}
+
+/* Background CSS */
+
+.container {
+    width: 500px;
+    height: 500px;
+    /* background-image: url('My\ World.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100px 100px; */
+    /* background-color: aqua; */
+    border: 5px solid red;
+    color: white;
+    /* background-position: top center; */
+    /* background-attachment: fixed; */
+    background: red url('My\ World.jpg') no-repeat top right;
+}

@@ -1,0 +1,78 @@
+/* Default CSS */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Units */
+
+html {
+    /* font-size: 45px; */
+}
+
+.container {
+    /* font-size: 4px; */
+}
+
+.box1 {
+    /* font-size: 12px; */
+    /* font-size: 3rem; */
+    background-color: red;
+}
+
+.box2 {
+    background-color: aqua;
+    width: 50vw;
+    height: 50vh;
+}
+
+/* Min-Max Height-Width CSS */
+
+.container2 {
+    width: 334px;
+    height: 144vh;
+    background-color: red;
+    /* min-height: 50vh; */
+    max-height: 50vh;
+}
+
+/* Position CSS */
+
+ul {
+    /* background-color: red; */
+}
+
+li {
+    /* display: inline; */
+    list-style: square inside url('My\ World.jpg');
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+p {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.container3 {
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    padding: 0 34px;
+    z-index: 1;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    /* position: relative; */
+    position: absolute;
+    z-index: 2;
+}

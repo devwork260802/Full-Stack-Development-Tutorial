@@ -1,0 +1,42 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Grid CSS */
+
+.container1 {
+    display: grid;
+    background-color: yellow;
+    height: 56vh;
+    /* grid-row-gap: 9px;
+    grid-column-gap: 9px; */
+    /* grid-template-columns: 34px 334px;
+    grid-template-rows: 34px 334px; */
+    grid-gap: 9px;
+    /* justify-content: center; */
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+
+/* Media Queries CSS */
+
+.container2 {
+    background-color: red;
+    height: 34vh;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: brown;
+    }
+    .container2 {
+        background-color: yellow;
+    }
+}

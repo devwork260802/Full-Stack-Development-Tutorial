@@ -1,0 +1,151 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1 CSS */
+
+/* li{
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+    font-size: larger;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    padding: 34px;
+}
+
+.left{
+    background-color: blue;
+    height: 80vh;
+    width: 40vw;
+    float: left;
+}
+
+.right{
+    background-color: red;
+    height: 80vh;
+    width: 40vw;
+    float: right;
+} */
+
+/* Question 2 CSS */
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+    font-size: larger;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    padding: 34px;
+}
+
+.left {
+    background-color: blue;
+    height: 80vh;
+    width: 40vw;
+}
+
+.right {
+    background-color: red;
+    height: 80vh;
+    width: 40vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Question 3 CSS */
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+    font-size: larger;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    padding: 34px;
+}
+
+.navigation {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
+
+.div1 {
+    background-color: green;
+    height: 40vh;
+    width: 40vw;
+}
+
+.div2 {
+    background-color: yellow;
+    height: 40vh;
+    width: 40vw;
+}
+
+/* Question 4 CSS */
+
+.background-image {
+    height: 220px;
+    width: 1552px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navimage {
+    padding: 7px;
+    height: 76px;
+    width: 86px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+    font-size: larger;
+}
+
+ul {
+    padding: 34px;
+}
+
+.content {
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

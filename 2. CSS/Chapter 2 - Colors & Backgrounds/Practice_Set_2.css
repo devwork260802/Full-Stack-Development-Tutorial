@@ -1,0 +1,61 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1 CSS */
+
+ul {
+    background-color: darkblue;
+    color: lightblue;
+}
+
+/* Question 2 CSS */
+
+.main {
+    background-color: darkred;
+}
+
+/* Question 3 CSS */
+
+.image {
+    width: 344px;
+    height: 344px;
+    background-image: url('My\ World.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position: center;
+}
+
+/* Question 4 CSS */
+
+.img {
+    width: 344px;
+    height: 1344px;
+    background-image: url('My\ World.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+/* Question 5 CSS */
+
+.pic {
+    width: 1344px;
+    height: 344px;
+    background-image: url('My\ World.jpg');
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-attachment: fixed;
+}
+
+/* Question 6 CSS */
+
+.picture {
+    background: rgb(73, 94, 94) no-repeat fixed url('My\ World.jpg');
+}

@@ -1,0 +1,38 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1 CSS */
+
+li {
+    display: inline-block;
+    font-size: 2vw;
+    padding: 0 13px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}
+
+/* Question 2 and 4 CSS */
+
+.container {
+    min-height: 2333px;
+    background-color: red;
+    z-index: 3;
+    position: relative;
+}
+
+/* Question 3 */
+
+li {
+    /* display: inline; */
+    list-style: square inside url('My\ World.jpg');
+}

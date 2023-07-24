@@ -1,0 +1,32 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1, 2 and 4 CSS */
+
+header {
+    border: 2px solid white;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    background-color: red;
+    height: 90vh;
+    padding: 33px;
+    margin: 34px;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    background-color: rebeccapurple;
+    margin: 23px;
+}

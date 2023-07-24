@@ -1,0 +1,47 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Display CSS */
+
+.box1 {
+    width: 431px;
+    height: 1134px;
+    background-color: red;
+    display: inline;
+    /* visibility: hidden; */
+    /* margin: 34px;
+    margin-top: 34px;
+    padding-top: 34px; */
+}
+
+.box2 {
+    width: 431px;
+    height: 1134px;
+    background-color: blueviolet;
+    /* text-align: center; */
+}
+
+/* Text Property CSS */
+
+p {
+    background-color: red;
+    width: 234px;
+    height: 245px;
+    color: white;
+    /* text-align: center; */
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 23px;
+    font-family: ubuntu, 'Courier New', Courier, monospace;
+}
+
+/* Font Property */
+
+h1 {
+    font-size: 34px;
+}

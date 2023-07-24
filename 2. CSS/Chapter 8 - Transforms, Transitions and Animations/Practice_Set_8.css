@@ -1,0 +1,165 @@
+/* Default CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Question 1 CSS */
+
+li {
+    list-style: none;
+    margin: 0 24px;
+    padding: 22px 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+main {
+    height: 200px;
+    background-color: blue;
+}
+
+.container1 {
+    height: 3px;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+.load1 {
+    height: 3px;
+    width: 0vw;
+    background-color: red;
+    animation: Loading_Bar_1 1s ease-in-out infinite;
+}
+
+@keyframes Loading_Bar_1 {
+    0% {
+        width: 0vw;
+    }
+    50% {
+        width: 90vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+/* Question 2 CSS */
+
+button {
+    background-color: black;
+    color: white;
+    border: black;
+    list-style: none;
+    margin: 0 24px;
+    padding: 22px 0;
+    font-size: large;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+main {
+    height: 200px;
+    background-color: blue;
+}
+
+.container2 {
+    height: 3px;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+#load2 {
+    height: 3px;
+    width: 0vw;
+    background-color: red;
+    transition: width 1s ease-in-out;
+}
+
+/* Question 3 CSS */
+
+@keyframes Rotate_3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#img3 {
+    width: 120px;
+    height: 120px;
+    animation: Rotate_3 1s ease-in infinite;
+}
+
+/* Question 4 CSS */
+
+@keyframes Slide_1 {
+    0% {
+        transform: translate(-32vw);
+    }
+    100% {
+        transform: translate(36vw);
+    }
+}
+
+@keyframes Slide_2 {
+    0% {
+        transform: translate(0vw);
+    }
+    100% {
+        transform: translate(92vw);
+    }
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.slider {
+    background-color: white;
+    height: 523px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img4_1 {
+    width: 1000px;
+    height: 500px;
+    transform: translate(-32vw);
+    animation: Slide_1 1s 2s forwards;
+}
+
+.img4_2 {
+    width: 1000px;
+    height: 500px;
+    transform: translate(0vw);
+    animation: Slide_2 1s 2s forwards;
+}
+
+.img4_3 {
+    width: 1000px;
+    height: 500px;
+    transform: translate(32vw);
+}

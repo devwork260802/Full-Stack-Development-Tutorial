@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists, Tables & Forms</title>
+</head>
+
+<body>
+    <ul type="circle">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <ol type="A">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ol>
+    <div>
+        <table>
+            <caption>
+                Me and My Friend
+            </caption>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <!-- <th>Name</th> -->
+                    <th colspan="3">About</th>
+                    <!-- <th>Game</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dev Gupta</td>
+                    <td>Coder</td>
+                    <td>My Factory Tycoon</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>David watson</td>
+                    <td>Coder</td>
+                    <td>Minecraft</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1>Travel Form</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <label for="section_id_a">
+                <input type="radio" value="Section a" name="Section" id="section_id_a">Section A
+            </label>
+            <label for="section_id_b">
+                <input type="radio" value="Section b" name="Section" id="section_id_b">Section B
+            </label>
+            <label for="section_id_c">
+                <input type="radio" value="Section c" name="Section" id="section_id_c">Section C
+            </label>
+            <br>
+            <input type="checkbox" name="wnat food Canteen card" id="food_canteen_card" class="red">
+            <label for="food_canteen_card"> Want Food Canteen Card</label>
+            <br>
+            <textarea name="explain" id="explain" cols="30" rows="10"
+                placeholder="Explain why you want to join"></textarea>
+            <select name="car" id="car">Select your car
+                <option value="no-car">Select your car</option>
+                <option value="omni_1">Omni 1</option>
+                <option value="omni_2">Omni 2</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mbm9zLo3rRU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br>
+        <iframe src="https://myworld29956.blogspot.com" frameborder="0" width="500"></iframe>
+    </div>
+</body>
+
+</html>
